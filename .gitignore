@@ -1,0 +1,21 @@
+# Ignore target directory
+target/
+
+# Ignore debug and release builds
+debug/
+release/
+
+# Ignore Cargo.lock (if you use libraries, but not if you're building an application)
+# Uncomment the next line if necessary:
+# Cargo.lock
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
